@@ -18,6 +18,9 @@ Keypad customKeypad = Keypad(makeKeymap(keys), pin_rows, pin_column, ROWS, COLS)
 
 void setup() {
   Serial.begin(9600);
+  lcd.setCursor(0,0);
+  lcd.println("This is test 1");
+    
 }
 
 void loop() {
